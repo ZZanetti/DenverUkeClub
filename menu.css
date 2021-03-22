@@ -1,0 +1,83 @@
+/*Zach Zanetti*/
+.menu {
+    width: 20%;
+    height: auto;
+    border-width: 4px;
+    border-style: solid;
+    overflow: hidden;
+    background-color: lightcoral;
+    position: fixed;
+}
+
+.menuitem {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding: 10px;
+    float: left;
+    display: block;
+
+}
+.menuitem a {
+    text-align: center;
+    color: blanchedalmond;
+    text-decoration: none;
+
+}
+
+.menuitem p {
+    padding: 0px;
+}
+
+.info {
+    background-color: NONE;
+    border-width: 4px;
+    border-style: SOLID;
+    margin-left: 20.5%;
+    width: auto;
+    float: left;
+    display: block;
+
+}
+.infoitem {
+    margin: 5px;
+    padding: 5px;
+    overflow:auto;
+    float: left;
+    border-width: 2px;
+    border-style: dashed;
+    background-color: lightyellow;
+    width: -moz-available;
+    width: -webkit-fill-available;
+}
+
+.infoitem:hover {
+    background-color: rgb(255, 255, 244);
+}
+
+h1 {
+    text-align: center;
+    color: burlywood;
+}
+
+#first {
+    float: left;
+    position: fixed;
+    height: 50px;
+    clear: right;
+    z-index: -1;
+}
+#second {
+    width: auto;
+    float: right;
+    height: 50px;
+}
+
+#welcome {
+    text-align: center;
+}
+
+li {
+    margin: 20px;
+}
